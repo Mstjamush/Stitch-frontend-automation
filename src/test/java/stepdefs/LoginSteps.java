@@ -51,6 +51,6 @@ public class LoginSteps {
     }
     @Then("^I verify the Submit$")
     public void iWantToVerifyToDoMessage() {
-        //MainCall.landingPage.verifySubmit();
+        MainCall.landingPage.verifySubmit();
     }
 }

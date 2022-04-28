@@ -32,9 +32,9 @@ public class LandingPage {
         MainCall.seleniumFunctions.PressButton(submit_Button);
     }
 
-    public static  void verifySubmit(String message)
+    public static  void verifySubmit()
     {
-       // MainCall.seleniumFunctions.VerificationMessageByMessage(userLoginVerificationByUserName,message);
+        MainCall.seleniumFunctions.PressButton(stitch_todolist);
     }
 
     public static void verifyLandingPage()

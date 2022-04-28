@@ -24,7 +24,6 @@ public class Hooks extends RunCukesTest {
     static ExtentTest logger;
     @Before
     public static void testStart(Scenario scenario) throws Throwable {
-
         beforeAddingStepsLength=automationSteps.size();
         beforeAddingExpectedResultLength=expectedResults.size();
         MainCall.caseID = "";
